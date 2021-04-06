@@ -1,0 +1,83 @@
+.html {
+    padding: 60%;
+    position: absolute;
+    min-height: 100%;
+    /* border-radius: 25px; */
+    background-color: #1DA1F2;
+
+  }
+.p {
+    text-align: match-parent;
+    font-weight: 500;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch: expanded;
+    color: ghostwhite;
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mainbody {
+  width: 1200px;
+  height: auto;
+  margin: 10px auto 10px auto;
+  overflow: hidden;
+  background-color:white;
+}
+.col1 {
+  width: 23%;
+  float: left;
+  height: 300px;
+  background-color:green;
+}
+.col2 {
+  width: 50%;
+  margin-left: 2%;
+  float: left;
+  height: 300px;
+  background-color:tomato;
+}
+.col3 {
+  width: 23%;
+  float: right;
+  height: 300px;
+  background-color:purple;
+}
+
+.logo {
+  margin: 0 auto 0 auto;
+  width: 60px;
+  height: 60px;
+  background-color: wheat;
+}
+.navsidebar {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+.navsidebar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.navsidebar a:hover {
+  background-color: #ddd;
+  color: black;
+}

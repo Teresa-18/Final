@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Sentiment </title>
+
+  
+</head>
+
+
+<body style='background-color:#1DA1F2'>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a href="https://twitter.com/intent/tweet?button_hashtag=LoveTwitter&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #LoveTwitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <img src="/Visualizations/bird.png" alt="Responsive image" width ="100" height="100">
+         
+          </li>
+          <li class="nav-item">
+           
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/templates/data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 bg-white">
+        <h1 class="display-4 text-info" style="font-style: oblique;">Twitter Sentiment</h1>
+        <hr>
+        
+        <!-- <div class="col-md-4"><img class= "content-img"style="width:100%"src="./Visualizations/bird.png" alt=""></div> -->
+       
+        <h2> Questions and Interest</h2>
+        <p1> The goal of this project was to find out more about Twitter and utilize artificial intelligence, specifically Natural Language Processing (NLP)
+           to assertain the general sentiment of tweets on various days of the week and whether the words are positive or negative.  Because of the potential size of the data we opted to
+           select three days that included a Monday (March), a Friday (April), and April Fools Day.  In order find out the general sentiment we asked the three following questions: <br></p1>
+          <br>
+
+          <p>1.  What are the variations of sentiment among days of the week, Monday versus Friday?  Are Mondays more negative and are Fridays more positive?</p>
+          <p>2.  What are the top tweets tweeted on Mondays? What hashtags tweeted on Monday's?</p> 
+          <p>3.  What are the top hashtags for the selected days?</p>
+          <br>
+
+          <h3>Data Source</h3>
+          <br>
+            <h4>Twitter API</h4>
+
+          <br>
+           - Development Portal provided access to pull tweets under Tweet Lookup 300 request / 15 min per app.
+          <br>
+          <br>
+           - For filtered stream and recent search there us a 500,000 Tweet / month per project.
+          <br>
+          <br>
+          <h5>Methods</h5>
+          <br>
+          To Call in Data:  Amazon AWS<br>
+          To Process the Data:  Natural Language Processing<br>
+          To Join the Data:  SQL Database<br>
+          To Analyze:  Python<br>
+          To Create and Style:  HTML/CSS/Bootstrap<br>
+          To Host:  Heroku<br>
+
+
+
+
+
+      </div>
+
+      <div class="col-md-4 bg-white">
+        <h1 class="display-4 text-info"></h1>
+        <hr>
+        <div class="row">
+          <span class= "PublishHeader-logo Icon Icon--twitter"></span>
+        
+          <img src="/Visualizations/Rufel.PNG" alt="Responsive image" width ="800" height="300">
+          <br>
+          <img src="/Visualizations/GalTweet.PNG" alt="Responsive image" width ="800" height="300">
+          <br>
+          <blockquote class="twitter-tweet"><p lang="en" class="right-navbar-section" dir="ltr">Writing Boot Camp next Saturday! Fine tune those skills! <a href="https://twitter.com/hashtag/UndergraduateResearch?src=hash&amp;ref_src=twsrc%5Etfw">#UndergraduateResearch</a> <a href="https://twitter.com/hashtag/UTSA?src=hash&amp;ref_src=twsrc%5Etfw">#UTSA</a> <a href="https://twitter.com/hashtag/writing?src=hash&amp;ref_src=twsrc%5Etfw">#writing</a> <a href="https://twitter.com/hashtag/organization?src=hash&amp;ref_src=twsrc%5Etfw">#organization</a> <a href="https://twitter.com/hashtag/timemanagement?src=hash&amp;ref_src=twsrc%5Etfw">#timemanagement</a> <a href="https://twitter.com/hashtag/BirdsUp?src=hash&amp;ref_src=twsrc%5Etfw">#BirdsUp</a> <a href="https://t.co/NmcLyytWah">pic.twitter.com/NmcLyytWah</a></p>&mdash; UTSA OUR (@UTSAOUR) <a href="https://twitter.com/UTSAOUR/status/1378054767658864645?ref_src=twsrc%5Etfw">April 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+          
+          <!-- <div class="col-md-6"><a href="/templates/Intro.html"><img class="w-100" src="/Visualizations/image.png" alt=""></a></div>
+          <div class="col-md-6"><a href="/templates/Hashtag.html"><img class="w-100" src="/Visualizations/hashtag.png" alt=""></a></div>
+          <div class="col-md-6"><a href="/templates/tweet_chart.html"><img class="w-100" src="/Visualizations/hashtag.png" alt=""></a></div> -->
+          <!-- <div class="col-md-6"><a href="WebVisualizations/WindSpeed.html"><img class="w-100" src="assets/images/Fig4.png" alt=""></a></div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
